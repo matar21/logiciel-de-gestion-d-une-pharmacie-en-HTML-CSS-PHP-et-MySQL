@@ -1,0 +1,182 @@
+
+/* Styles dashboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contenu */
+#content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.widget {
+    text-align: center;
+    font-size: 130%;
+    font-weight: 500;
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#widgetChiffre {
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+#alerte{
+    font-weight: 900;
+    color: red;
+}
+
+#statistique{
+    font-weight: 900;
+    color: blue;
+}
+
+#chiffreAffaire{
+    font-weight: 900;
+    color: #00d612;
+}
+
+#chiffreAffaireP{
+    color: #0091ff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #0074D9;
+}
+.tableau{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tableauVente{
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tableauVente th,td{
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* style de la page users */
+body{
+    background: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+table{
+    margin: auto;
+    font-size: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .3);
+    border-collapse: collapse;
+}
+caption{
+    font-size: 20px;
+    background: white;
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+th{
+    padding: 0 5px 0 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+th, td, caption{
+    border: 1px solid black;
+    text-align: center;
+}
+caption{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+tfoot{
+    font-size: 120%;
+    font-weight: 700;
+}
+footer{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+/* style de la page de delete. */
+.deletbtn{
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #ff1317;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    transition: .3s;
+}
+.deletbtn:hover{
+    opacity: .7;
+    background: #0f13ff;
+}
+.container{
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    width: 650px;
+    max-width: 90%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .3);
+}
+.container form{
+    margin: 0 130px 0 130px;
+}
+.container form .formInput{
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+.container form div label{
+    border: 1px solid silver;
+    display: inline-block;
+    width: 160px;
+
+}
